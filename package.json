@@ -1,3 +1,9 @@
 {
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "serve": "nodemon server.js"
+  }
 }
